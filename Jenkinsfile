@@ -26,6 +26,11 @@ pipeline{
             steps{
                 sh "gradle test"
             }
+            
+        }
+
+        
+            
         }
     }
 }
